@@ -1,4 +1,5 @@
 Package: kinograte
+Type: Package
 Title: Multi-omics Integration
 Version: 0.0.1.9000
 Authors@R: 
@@ -18,3 +19,5 @@ Imports:
     reactable,
     visNetwork
 VignetteBuilder: knitr
+Suggests: 
+    knitr
