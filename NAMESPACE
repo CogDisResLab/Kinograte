@@ -2,4 +2,6 @@
 
 export("%>%")
 export(percentile_rank)
+export(score_plot)
+export(top_hits)
 importFrom(dplyr,"%>%")
