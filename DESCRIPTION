@@ -3,8 +3,17 @@ Title: Multi-omics Integration
 Version: 0.0.1.9000
 Authors@R: 
     person("Khaled", "Alganem", , "khaled.a.alganem@gmail.com", role = c("aut", "cre"))
-Description: Netwrok-based multi-omics integration
+Description: Netwrok-based multi-omics integration using a prize-collecting Steiner forest (PCSF) algorithm
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Imports: 
+    dplyr,
+    echarts4r,
+    ggplot2,
+    igraph,
+    PCSF,
+    reactable,
+    visNetwork
+VignetteBuilder: knitr
