@@ -17,13 +17,14 @@ reference:
     - percentile_rank
     - top_hits
     - combine_scores
+    - kinograte
   - title: Plotting Functions
     contents:
     - score_plot
+    - visualize_network
   - title: Data and curated files
     contents:
     - rnaseq_example
     - proteomics_exmaple
     - kinomics_exmaple
     - ppi_network_example
-   

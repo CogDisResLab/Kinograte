@@ -2,7 +2,9 @@
 
 export("%>%")
 export(combine_scores)
+export(kinograte)
 export(percentile_rank)
 export(score_plot)
 export(top_hits)
+export(visualize_network)
 importFrom(dplyr,"%>%")

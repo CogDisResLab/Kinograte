@@ -22,6 +22,9 @@
     <loc>/reference/index.html</loc>
   </url>
   <url>
+    <loc>/reference/kinograte.html</loc>
+  </url>
+  <url>
     <loc>/reference/kinomics_exmaple.html</loc>
   </url>
   <url>
@@ -44,5 +47,8 @@
   </url>
   <url>
     <loc>/reference/top_hits.html</loc>
+  </url>
+  <url>
+    <loc>/reference/visualize_network.html</loc>
   </url>
 </urlset>

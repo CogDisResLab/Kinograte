@@ -1,0 +1,45 @@
+#' Visualize integrated network
+#' 
+#' This function visualizes the integrated results with an interactive network
+#'
+#' @param nodes network nodes
+#' @param edges network edges
+#' @param layout layout option from igraph. default = "layout_with_fr". \href{https://igraph.org/r/doc/layout_.html}{See full list}
+#' @param options_by (optional) set dropdown menu, "group" or "cluster". Set NULL to remove dropdown menu
+#' @param seed (optional) set seed
+#'
+#' @return visNetwork object 
+#' 
+#' @export
+#'
+
+
+visualize_network <- function(nodes, edges, layout = "layout_with_fr", seed = 123, options_by = "group") {
+  
+
+  edges_vis <- edges
+  nodes_vis <- nodes %>% 
+    dplyr::rename(id = Protein, group = type, value = prize) %>% 
+    dplyr::distinct() %>% 
+    dplyr::mutate(label = id)
+  
+  
+  visNetwork::visNetwork(nodes = nodes_vis, edges = edges_vis) %>% 
+    visNetwork::visPhysics() %>% 
+    visNetwork::visNodes(font = list(size = 10), shape = "circle") %>% 
+    visNetwork::visEdges(smooth = FALSE) %>%
+    visNetwork::visGroups(group = "Kinase", color = list(border = "#454545", background = "#D88C9A")) %>%
+    visNetwork::visGroups(group = "RNA", color = list(border = "#454545", background = "#F2D0A9")) %>%
+    visNetwork::visGroups(group = "Transcription Factor", 
+              color = list(border = "#454545", background = "#669bbc")) %>%
+    visNetwork::visGroups(group = "Hidden", color = list(border = "#454545", background = "#99C1B9")) %>%
+    visNetwork::visGroups(group = "Protein", color = list(border = "#454545", background = "#8E7DBE")) %>%
+    visNetwork::visLegend() %>% 
+    visNetwork::visIgraphLayout(layout = layout, randomSeed = seed) -> net
+  
+    if(!is.null(options_by)) {
+      net %>% 
+      visNetwork::visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE, selectedBy = options_by)
+    } else net
+  
+}
