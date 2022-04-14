@@ -23,8 +23,3 @@ dataframe of the top hits
 \description{
 This function plots the normalized score. Two options available: static or interactive plot
 }
-\examples{
-TRUE
-
-
-}

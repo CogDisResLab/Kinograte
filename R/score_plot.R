@@ -12,8 +12,6 @@
 #' 
 #' @export
 #'
-#' @examples
-#' TRUE
 #' 
 #' 
 
