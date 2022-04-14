@@ -1,7 +1,7 @@
 Package: kinograte
 Type: Package
-Title: Multi-omics Integration
-Version: 0.0.1.9000
+Title: Kinograte: Netwrok-based multi-omics Integration
+Version: 0.0.2.9000
 Authors@R: 
     person("Khaled", "Alganem", , "khaled.a.alganem@gmail.com", role = c("aut", "cre"))
 Description: Netwrok-based multi-omics integration using a prize-collecting Steiner forest (PCSF) algorithm
@@ -21,3 +21,6 @@ Imports:
 VignetteBuilder: knitr
 Suggests: 
     knitr
+Depends: 
+    R (>= 2.10)
+LazyData: true

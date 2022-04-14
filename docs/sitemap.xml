@@ -16,13 +16,28 @@
     <loc>/index.html</loc>
   </url>
   <url>
+    <loc>/reference/combine_scores.html</loc>
+  </url>
+  <url>
     <loc>/reference/index.html</loc>
+  </url>
+  <url>
+    <loc>/reference/kinomics_exmaple.html</loc>
   </url>
   <url>
     <loc>/reference/percentile_rank.html</loc>
   </url>
   <url>
+    <loc>/reference/ppi_network_example.html</loc>
+  </url>
+  <url>
+    <loc>/reference/proteomics_exmaple.html</loc>
+  </url>
+  <url>
     <loc>/reference/reexports.html</loc>
+  </url>
+  <url>
+    <loc>/reference/rnaseq_example.html</loc>
   </url>
   <url>
     <loc>/reference/score_plot.html</loc>

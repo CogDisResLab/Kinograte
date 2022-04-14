@@ -5,3 +5,25 @@ template:
   bslib:
     pkgdown-nav-height: 100px
 
+navbar:
+  components:
+     github:
+       icon: "fab fa-github"
+       href: https://github.com/kalganem/Kinograte
+
+reference:
+  - title: Functions
+    contents:
+    - percentile_rank
+    - top_hits
+    - combine_scores
+  - title: Plotting Functions
+    contents:
+    - score_plot
+  - title: Data and curated files
+    contents:
+    - rnaseq_example
+    - proteomics_exmaple
+    - kinomics_exmaple
+    - ppi_network_example
+   
