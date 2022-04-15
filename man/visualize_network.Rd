@@ -7,6 +7,7 @@
 visualize_network(
   nodes,
   edges,
+  cluster_df = NULL,
   layout = "layout_with_fr",
   seed = 123,
   options_by = "group"

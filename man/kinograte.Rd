@@ -12,6 +12,7 @@ kinograte(
   r = 0.1,
   b = 2,
   mu = 0.005,
+  cluster = TRUE,
   seed = NULL
 )
 }
@@ -29,6 +30,8 @@ kinograte(
 \item{b}{A numeric value for tuning the node prizes. A default value is 1.}
 
 \item{mu}{A numeric value for a hub penalization. A default value is 0.0005.}
+
+\item{cluster}{set TRUE to cluster the network}
 
 \item{seed}{(optional) set seed number}
 }
