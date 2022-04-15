@@ -23,7 +23,7 @@ kinograte <- function(df, ppi_network, n = 10, w = 10, r = 0.1, b = 2, mu = 0.00
   terms <- df$prize
   names(terms) <- df$name
   
-  ppi_net <- base::as.data.frame(ppi_net)
+  ppi_net <- base::as.data.frame(ppi_network)
   ppi <- PCSF::construct_interactome(ppi_net)
   
   # running pcsf 
