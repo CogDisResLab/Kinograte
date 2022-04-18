@@ -3,6 +3,7 @@
 export("%>%")
 export(combine_scores)
 export(kinograte)
+export(network_enrichment)
 export(percentile_rank)
 export(score_plot)
 export(top_hits)

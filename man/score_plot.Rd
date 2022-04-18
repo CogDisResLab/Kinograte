@@ -4,7 +4,13 @@
 \alias{score_plot}
 \title{Plot the normalized score}
 \usage{
-score_plot(df, prec_cutoff, title = "Score Plot", subtitle = "", interactive)
+score_plot(
+  df,
+  prec_cutoff = 0.8,
+  title = "Score Plot",
+  subtitle = "",
+  interactive = T
+)
 }
 \arguments{
 \item{df}{dataframe that contains ranked genes/proteins}

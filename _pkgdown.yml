@@ -6,6 +6,9 @@ template:
     pkgdown-nav-height: 100px
 
 navbar:
+  structure:
+    left:  [intro, reference]
+    right: [search, github]
   components:
      github:
        icon: "fab fa-github"
@@ -18,6 +21,7 @@ reference:
     - top_hits
     - combine_scores
     - kinograte
+    - network_enrichment
   - title: Plotting Functions
     contents:
     - score_plot

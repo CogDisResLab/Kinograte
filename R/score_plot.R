@@ -15,7 +15,7 @@
 #' 
 #' 
 
-score_plot <- function(df, prec_cutoff, title = "Score Plot", subtitle = "", interactive) {
+score_plot <- function(df, prec_cutoff = 0.8, title = "Score Plot", subtitle = "", interactive = T) {
   
   df %>% 
     dplyr::mutate_if(is.numeric, round, 3) -> df
