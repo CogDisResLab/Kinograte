@@ -48,7 +48,7 @@ profiles (such as those found in [LINCS](https://lincsproject.org/))
 with active kinome profiles will identify subnetworks that can be used
 to better understand biological systems and highlight optimized drug
 targets. Kinograte is designed with a focus on kinomics in particular to
-integrate multi-omics datasets.
+integrate multi-omics datasets. 
 
 ## Workflow
 
