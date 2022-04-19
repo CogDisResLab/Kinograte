@@ -4,6 +4,17 @@ template:
   bootswatch: flatly
   bslib:
     pkgdown-nav-height: 100px
+  includes:
+    in_header: |
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-C14W77M4Q3"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-C14W77M4Q3');
+      </script>
 
 navbar:
   structure:
