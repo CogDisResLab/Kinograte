@@ -86,8 +86,8 @@
 <h2 id="scope">Scope<a class="anchor" aria-label="anchor" href="#scope"></a>
 </h2>
 <p>For many research questions, it is insufficient to only measure transcript or protein expression levels. As nascent peptides undergo <a href="https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-biology-learning-center/protein-biology-resource-library/pierce-protein-methods/overview-post-translational-modification.html" class="external-link">post-translational modification (PTM)</a>, they gain diverse biological properties integral to cell signaling behaviors. Thus, relying exclusively upon gene expression data severely limits our ability to generate useful scientific insights for complex biological systems. Given the importance of kinome activity in signal transduction and its role in many cellular processes like apoptosis and cell cycle, it becomes clear that characterizing kinome signatures in conjunction with transcriptional and proteomics signatures is a critical to understand the pathophysiology of complex diseases and identify novel therapeutic targets.</p>
-<p>The complexity of active kinase networks makes the interpretation of kinomic datasets challenging. Protein kinase signaling does not work in a linear fashion (i.e an alteration in kinase activity affects downstream cascades as well as whole subnetworks of interactions, often triggering compensatory responses in other parts of the active kinome. To learn more on that topic read our <a href="https://pubmed.ncbi.nlm.nih.gov/34968947/" class="external-link">kinome review paper</a>).</p>
-<p>Moreover, signature-based drug repurposing is more promising with the addition of post-translational profiles. Pairing transcriptional profiles (such as those found in <a href="https://lincsproject.org/" class="external-link">LINCS</a>) with active kinome profiles will identify subnetworks that can be used to better understand biological systems and highlight optimized drug targets. Kinograte is designed with a focus on kinomics in particular to integrate multi-omics datasets.</p>
+<p>The complexity of active kinase networks makes the interpretation of kinomic datasets challenging. Protein kinase signaling does not work in a linear fashion (i.e an alteration in kinase activity affects downstream cascades as well as whole subnetworks of interactions, often triggering compensatory responses in other parts of the active kinome. To learn more on that topic, read our <a href="https://pubmed.ncbi.nlm.nih.gov/34968947/" class="external-link">kinome review paper</a>).</p>
+<p>Moreover, signature-based drug repurposing is more promising with the addition of post-translational profiles. Pairing transcriptional profiles (such as those found in <a href="https://lincsproject.org/" class="external-link">LINCS</a>) with active kinome profiles will identify subnetworks that can be used to better understand biological systems, highlight optimized drug targets, and identify novel biomarkers.</p>
 </div>
 <div class="section level2">
 <h2 id="workflow">Workflow<a class="anchor" aria-label="anchor" href="#workflow"></a>
@@ -99,7 +99,7 @@
 <div class="section level2">
 <h2 id="output">Output<a class="anchor" aria-label="anchor" href="#output"></a>
 </h2>
-<p>To visualize the integrated networks, we primally use the <a href="https://datastorm-open.github.io/visNetwork/" class="external-link">visNetwork R package</a> for its interactivity and degree of customization. To cluster protein and identify community structures within the integrated networks, we utilize some of the functionality deployed by the <a href="https://igraph.org/r/" class="external-link">igraph R package</a>. This clustering technique allows for performing gene/protein set and pathway enrichment analysis within each cluster of proteins using <a href="https://maayanlab.cloud/Enrichr/" class="external-link">Enrichr</a></p>
+<p>To visualize the integrated networks, we primarily use the <a href="https://datastorm-open.github.io/visNetwork/" class="external-link">visNetwork R package</a> for its interactivity and degree of customization. To cluster protein and identify community structures within the integrated networks, we utilize some of the functionality deployed by the <a href="https://igraph.org/r/" class="external-link">igraph R package</a>. This clustering technique allows for performing gene/protein set and pathway enrichment analysis within each cluster of proteins using <a href="https://maayanlab.cloud/Enrichr/" class="external-link">Enrichr</a></p>
 <div class="figure">
 <img src="reference/figures/figure_2.png" alt=""><p class="caption">Kinograte Output</p>
 </div>
@@ -112,7 +112,7 @@
 <div class="section level2">
 <h2 id="contact">Contact<a class="anchor" aria-label="anchor" href="#contact"></a>
 </h2>
-<p>For technical issues, please start a new issue on this repo: <a href="https://github.com/CogDisResLab/KRSA/issues" class="external-link">Link</a></p>
+<p>For technical issues, please start a new issue on this repo: <a href="https://github.com/kalganem/Kinograte/issues" class="external-link">Link</a></p>
 <p>For biological interpretation questions please email: <a href="mailto:khaled.alganem@rockets.utoledo.edu" class="email">khaled.alganem@rockets.utoledo.edu</a></p>
 </div>
 </div>

@@ -39,16 +39,15 @@ kinomic datasets challenging. Protein kinase signaling does not work in
 a linear fashion (i.e an alteration in kinase activity affects
 downstream cascades as well as whole subnetworks of interactions, often
 triggering compensatory responses in other parts of the active kinome.
-To learn more on that topic read our [kinome review
+To learn more on that topic, read our [kinome review
 paper](https://pubmed.ncbi.nlm.nih.gov/34968947/)).
 
 Moreover, signature-based drug repurposing is more promising with the
 addition of post-translational profiles. Pairing transcriptional
 profiles (such as those found in [LINCS](https://lincsproject.org/))
 with active kinome profiles will identify subnetworks that can be used
-to better understand biological systems and highlight optimized drug
-targets. Kinograte is designed with a focus on kinomics in particular to
-integrate multi-omics datasets. 
+to better understand biological systems, highlight optimized drug
+targets, and identify novel biomarkers.
 
 ## Workflow
 
@@ -56,7 +55,7 @@ integrate multi-omics datasets.
 
 ## Output
 
-To visualize the integrated networks, we primally use the [visNetwork R
+To visualize the integrated networks, we primarily use the [visNetwork R
 package](https://datastorm-open.github.io/visNetwork/) for its
 interactivity and degree of customization. To cluster protein and
 identify community structures within the integrated networks, we utilize
@@ -74,7 +73,7 @@ cluster of proteins using [Enrichr](https://maayanlab.cloud/Enrichr/)
 ## Contact
 
 For technical issues, please start a new issue on this repo:
-[Link](https://github.com/CogDisResLab/KRSA/issues)
+[Link](https://github.com/kalganem/Kinograte/issues)
 
 For biological interpretation questions please email:
 <khaled.alganem@rockets.utoledo.edu>
